@@ -4,7 +4,6 @@ const prefix = '.'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Nothing`,"")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -28,15 +27,13 @@ client.user.setGame(`Nothing`,"")
   console.log('')
 });
 
-
-
  client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 **
 **WELCOME TO C A S A N O V A  :hearts:️:dove:**
 
-        [https://discord.gg/Kx6w6pa]                            
+        https://discord.gg/KhP6eH5                            
 الدعووة خاصة لك ي قلبي وعيني ... [ ${member}  ]
 **`)
 }).catch(console.error)
@@ -49,12 +46,11 @@ client.on("guildMemberAdd", member => {
 **
 **WELCOME TO C A S A N O V A  :hearts:️:dove:**
 
-        [https://discord.gg/Kx6w6pa]                            
+        https://discord.gg/KhP6eH5                           
 الدعووة خاصة لك ي قلبي وعيني ... [ ${member}  ]
 **`) 
 }).catch(console.error)
 })
-
 
  client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
@@ -62,7 +58,7 @@ client.on("guildMemberAdd", member => {
 **
 **WELCOME TO C A S A N O V A  :hearts:️:dove:**
 
-        [https://discord.gg/Kx6w6pa]                            
+        https://discord.gg/KhP6eH5                            
 الدعووة خاصة لك ي قلبي وعيني ... [ ${member}  ]
 **`)
 }).catch(console.error)
@@ -75,10 +71,70 @@ client.on("guildMemberAdd", member => {
 **
 **WELCOME TO C A S A N O V A  :hearts:️:dove:**
 
-        [https://discord.gg/Kx6w6pa]                            
+        https://discord.gg/KhP6eH5                           
 الدعووة خاصة لك ي قلبي وعيني ... [ ${member}  ]
 **`) 
 }).catch(console.error)
 })
+
+ client.on("guildMemberRemove", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+**WELCOME TO C A S A N O V A  :hearts:️:dove:**
+
+        https://discord.gg/KhP6eH5                            
+الدعووة خاصة لك ي قلبي وعيني ... [ ${member}  ]
+**`)
+}).catch(console.error)
+
+})
+ 
+client.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+**WELCOME TO C A S A N O V A  :hearts:️:dove:**
+
+        https://discord.gg/KhP6eH5                           
+الدعووة خاصة لك ي قلبي وعيني ... [ ${member}  ]
+**`) 
+}).catch(console.error)
+})
+
+ client.on("guildMemberRemove", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+**WELCOME TO C A S A N O V A  :hearts:️:dove:**
+
+        https://discord.gg/KhP6eH5                            
+الدعووة خاصة لك ي قلبي وعيني ... [ ${member}  ]
+**`)
+}).catch(console.error)
+
+})
+ 
+client.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+**WELCOME TO C A S A N O V A  :hearts:️:dove:**
+
+        https://discord.gg/KhP6eH5                           
+الدعووة خاصة لك ي قلبي وعيني ... [ ${member}  ]
+**`) 
+}).catch(console.error)
+})
+
+
+
+
+
+
+
+
+
+
 
 client.login(process.env.BOT_TOKEN);
